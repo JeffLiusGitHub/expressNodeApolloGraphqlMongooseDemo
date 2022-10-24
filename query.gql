@@ -1,0 +1,48 @@
+// query  {
+//     getAllPosts {
+//       id
+//       title
+//       description
+//     }
+//   }
+  
+  
+//   mutation{
+//     updatePost (id:"635681b6d7580bb9bd9bdaf7",post:{
+//       title:"new title2"
+//     }){
+//       id
+//       title
+//       description
+//     }
+//   }
+  
+  
+//   query{
+//     getPost (id:"635681f7d7580bb9bd9bdafc"){
+//       id
+//       title
+//       description
+//     }
+      
+    
+//   }
+  
+//   mutation{
+//     deletePost(id:"635681c2d7580bb9bd9bdaf9")
+//   }
+  
+  
+  
+//   mutation{
+//     createPost (post:{
+//       title:"mySecondPost" 
+//     description:"Desc2"
+//     }
+      
+//     ){
+//       id
+//       title
+//       description
+//     }
+//   }
